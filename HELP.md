@@ -1,0 +1,2 @@
+https://youtrack.jetbrains.com/issue/IDEA-360492/Spring-Structure-for-the-Service-beans-the-ScopePROTOTYPE-is-shown
+https://youtrack.jetbrains.com/issue/IDEA-360494/Spring-Structure-the-scope-is-not-shown-for-beans-other-than-Service
