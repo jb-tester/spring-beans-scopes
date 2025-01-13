@@ -1,10 +1,11 @@
-package com.mytests.spring.demo;
+package com.mytests.spring.demo.services;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
-@Service
 
-public class MyService {
+@Service
+@Scope("prototype")
+class PrototypeService {
 
 }
