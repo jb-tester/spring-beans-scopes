@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 @MyPrototype
-class MyPrototypeService {
+class CustomScopeService {
 
 }
