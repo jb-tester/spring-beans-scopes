@@ -1,6 +1,7 @@
 package com.mytests.spring.demo;
 
 import com.mytests.spring.demo.beans.Bean2;
+import com.mytests.spring.demo.beans.Bean3;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import com.mytests.spring.demo.beans.Bean1;
@@ -18,5 +19,10 @@ public class MyConfig {
     @Bean @Scope("singleton")
     public Bean2 mybean2() {
         return new Bean2("mybean2");
+    }
+
+    @Bean
+    public Bean3 bean3() {
+        return new Bean3();
     }
 }
